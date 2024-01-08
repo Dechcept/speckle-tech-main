@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .title {
+    color: #ee2b5a;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 16.8px */
+    letter-spacing: 0.7px;
+  }
+  .heading {
+    @apply w-[564px] font-sans text-left text-[40px] max-md:text-3xl  leading-[48px] max-sm:leading-[28.8px] tracking-[2px] max-sm:tracking-[1.2px] font-bold  max-xl:w-full;
+  }
+
+  .para {
+    @apply w-[564px] text-[#757557]  font-sans text-[16px]   leading-6  tracking-[0.8px] font-normal max-xl:w-full;
+  }
+}
