@@ -40,7 +40,7 @@ const Navbar = (props) => {
             className="logo w-[172px]  text-white flex justify-center items-center  "
           >
             <span className=" text-[20px] leading-5">
-              <img src="/images/logo.webp" alt="#img" />
+              <img src="/images/Logo.webp" alt="#img" />
             </span>
           </Link>
           <div className="flex items-center gap-[38px]  max-lg:hidden ">
